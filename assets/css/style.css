@@ -13,3 +13,12 @@
     height: 75px; 
     border-image-width: 500px; 
 }
+
+.fa { 
+    padding: 20px; 
+    font-size: 30px; 
+    width: 30px; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 50%; 
+}
