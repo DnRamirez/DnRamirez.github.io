@@ -1,12 +1,21 @@
+body {
+    background-color: grey; 
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    align-items: left;
-    justify-content: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem; 
 }
 
 .profilePicture { 
-    margin-left: 2rem; 
+    margin-top: 1rem; 
     border-radius: 50%;
     border-color: cadetblue;
     width: 100px; 
@@ -25,6 +34,7 @@
 
 .icons { 
     margin-top: 10px;
+    display: flex;
     align-items: center; 
-    
+    justify-content: center;
 }
