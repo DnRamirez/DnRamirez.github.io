@@ -6,6 +6,7 @@
 }
 
 .profilePicture { 
+    margin-left: 2rem; 
     border-radius: 50%;
-    
+    border-color: cadetblue;
 }
