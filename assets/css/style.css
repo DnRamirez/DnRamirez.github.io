@@ -3,6 +3,8 @@
     align-items: left;
     justify-content: center;
     display: flex;
+    flex-direction: row;  
+    margin-top: 20px; 
 }
 
 .profilePicture { 
@@ -15,21 +17,38 @@
 }
 
 .fa { 
-    padding: 20px; 
-    font-size: 30px; 
-    width: 30px; 
-    text-align: center; 
+    font-size: 50px; 
+    width: 35px;
+    text-align: center;  
     text-decoration: none; 
     border-radius: 50%; 
+    color: dimgray; 
+
 }
 
 .icons { 
-    margin-top: 10px;
-    border-image-width: 80px; 
+    display: flex; 
+    flex-direction: row;
+    margin-top: -35px; 
+    border-image-width: 0px;
+    justify-content: center; 
     align-items: center; 
+    font-size: 25px;
+    margin-right: 10px;
 
 }
 
-html { 
-    background-color: gre
-}
+body { 
+    background-color: whitesmoke; 
+} 
+
+
+@media (max-width: 600px) {
+    .icons {
+        display: flex; 
+        flex-direction: column; 
+        margin-top: -25px; /* Adjust as needed */
+         
+    }
+} 
+
