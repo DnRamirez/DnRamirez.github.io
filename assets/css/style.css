@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;  
     margin-top: 20px; 
+   
 }
 
 .profilePicture { 
@@ -44,16 +45,20 @@ body {
 
 
 @media (max-width: 600px) {
-    body { 
-        display: flex; 
-        flex-direction: column;
-    }
-    
+   .container { 
+    display: flex; 
+    flex-direction: column; 
+   }
+
     .icons {
         display: flex; 
         flex-direction: row; 
-        margin-top: -25px; /* Adjust as needed */
+        margin-top: 10px; /* Adjust as needed */
          
+    }
+    .profilePicture { 
+        display: flex; 
+        flex-direction: column;
     }
 } 
 
