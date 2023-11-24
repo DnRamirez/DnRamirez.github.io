@@ -44,9 +44,14 @@ body {
 
 
 @media (max-width: 600px) {
+    body { 
+        display: flex; 
+        flex-direction: column;
+    }
+    
     .icons {
         display: flex; 
-        flex-direction: column; 
+        flex-direction: row; 
         margin-top: -25px; /* Adjust as needed */
          
     }
