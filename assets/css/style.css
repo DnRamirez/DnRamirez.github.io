@@ -149,6 +149,19 @@ h3 {
 
 }
 
+@media (min-width: 640px) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
+/* Large screens (1024px and up) */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 48px;
+    }
+}
+
 
 
 /* old media
